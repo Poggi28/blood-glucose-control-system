@@ -58,4 +58,5 @@ The control input u(t) is the insulin present in the blood, measured in U/l. The
 It was chosen to implement the project in Matlab and Simulink. The choice of Matlab is because it is a widely used tool for control systems and provides many useful functions and tools for implementing controllers and analyzing the system. The controllers are implemented as Simulink blocks, so they can be easily integrated into the simulation environment. As can be seen, the division of folders follows that of the work packages, so one folder for each work package. The following files are provided for each WP:
 - WPX.mlx: The commented live script that runs the simulation and plots the results (comments are only available in Italian);
 - XXX.slx: the Simulink model of the controllers.
+
 Note that multiple controllers have been implemented for each WP, so that the performance of different controllers within the same WP can be compared and the best controller in each WP can be compared with the best controller in the other WPs.
